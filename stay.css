@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+
+body {
+  margin: auto;
+  padding: auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  background-color: rgb(58, 79, 219);
+}
+.maindiv {
+  margin: 20px;
+  padding-top: 50px;
+}
+.mb-0 {
+  margin-left: 5px;
+}
+form {
+  padding-top: 20px;
+}
+.btn {
+  margin: 20px;
+  width: 80%;
+  height: 40px;
+  border: solid 2px red;
+}
+.btn:hover {
+  background-color: aqua;
+  color: brown;
+}
+.container {
+  background-color: aliceblue;
+  max-width: 500px;
+  border: 1px solid rgb(212, 175, 175); /* define thickness, style, and color */
+  border-radius: 12px; /* radius only — no color or style here */
+}
+
+.cp {
+  margin: 20px;
+}
+.image {
+  max-width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
